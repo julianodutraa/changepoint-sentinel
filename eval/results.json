@@ -1,0 +1,1034 @@
+{
+  "config": {
+    "budget_fa_per_1000": 1.0,
+    "n_cal": 30,
+    "n_change": 60,
+    "n_null": 30,
+    "phis": [
+      0.0,
+      0.5,
+      0.8
+    ]
+  },
+  "naive_thresholds": {
+    "bocpd_ar": 0.9,
+    "bocpd_iid": 0.9,
+    "cusum": 7.0,
+    "cusum_lrv": 7.0,
+    "zscore": 1.75
+  },
+  "regimes": {
+    "0.0": {
+      "bocpd_ar": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 13.0,
+              "n": 180,
+              "recall": 0.65
+            },
+            "fa_per_1000_on_change_series": 0.333,
+            "mean_1": {
+              "median_delay": 25.0,
+              "n": 40,
+              "recall": 0.65
+            },
+            "mean_2": {
+              "median_delay": 10.0,
+              "n": 38,
+              "recall": 0.7632
+            },
+            "mean_3": {
+              "median_delay": 5.0,
+              "n": 41,
+              "recall": 0.9512
+            },
+            "variance": {
+              "median_delay": 24.0,
+              "n": 61,
+              "recall": 0.377
+            }
+          },
+          "fa_per_1000_null": 0.806,
+          "threshold": 0.9
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 13.0,
+              "n": 180,
+              "recall": 0.65
+            },
+            "fa_per_1000_on_change_series": 0.333,
+            "mean_1": {
+              "median_delay": 25.0,
+              "n": 40,
+              "recall": 0.65
+            },
+            "mean_2": {
+              "median_delay": 10.0,
+              "n": 38,
+              "recall": 0.7632
+            },
+            "mean_3": {
+              "median_delay": 5.0,
+              "n": 41,
+              "recall": 0.9512
+            },
+            "variance": {
+              "median_delay": 24.0,
+              "n": 61,
+              "recall": 0.377
+            }
+          },
+          "fa_per_1000_null": 0.806,
+          "threshold": 0.9
+        }
+      },
+      "bocpd_iid": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 13.0,
+              "n": 180,
+              "recall": 0.7611
+            },
+            "fa_per_1000_on_change_series": 0.458,
+            "mean_1": {
+              "median_delay": 26.0,
+              "n": 40,
+              "recall": 0.675
+            },
+            "mean_2": {
+              "median_delay": 8.5,
+              "n": 38,
+              "recall": 0.8421
+            },
+            "mean_3": {
+              "median_delay": 4.0,
+              "n": 41,
+              "recall": 0.9756
+            },
+            "variance": {
+              "median_delay": 21.5,
+              "n": 61,
+              "recall": 0.623
+            }
+          },
+          "fa_per_1000_null": 0.75,
+          "threshold": 0.9
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 13.0,
+              "n": 180,
+              "recall": 0.7611
+            },
+            "fa_per_1000_on_change_series": 0.458,
+            "mean_1": {
+              "median_delay": 26.0,
+              "n": 40,
+              "recall": 0.675
+            },
+            "mean_2": {
+              "median_delay": 8.5,
+              "n": 38,
+              "recall": 0.8421
+            },
+            "mean_3": {
+              "median_delay": 4.0,
+              "n": 41,
+              "recall": 0.9756
+            },
+            "variance": {
+              "median_delay": 21.5,
+              "n": 61,
+              "recall": 0.623
+            }
+          },
+          "fa_per_1000_null": 0.75,
+          "threshold": 0.9
+        }
+      },
+      "cusum": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 8.0,
+              "n": 180,
+              "recall": 0.8944
+            },
+            "fa_per_1000_on_change_series": 0.708,
+            "mean_1": {
+              "median_delay": 13.0,
+              "n": 40,
+              "recall": 0.7
+            },
+            "mean_2": {
+              "median_delay": 5.0,
+              "n": 38,
+              "recall": 0.8947
+            },
+            "mean_3": {
+              "median_delay": 3.0,
+              "n": 41,
+              "recall": 0.9512
+            },
+            "variance": {
+              "median_delay": 13.5,
+              "n": 61,
+              "recall": 0.9836
+            }
+          },
+          "fa_per_1000_null": 0.917,
+          "threshold": 7.0
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 8.0,
+              "n": 180,
+              "recall": 0.8944
+            },
+            "fa_per_1000_on_change_series": 0.708,
+            "mean_1": {
+              "median_delay": 13.0,
+              "n": 40,
+              "recall": 0.7
+            },
+            "mean_2": {
+              "median_delay": 5.0,
+              "n": 38,
+              "recall": 0.8947
+            },
+            "mean_3": {
+              "median_delay": 3.0,
+              "n": 41,
+              "recall": 0.9512
+            },
+            "variance": {
+              "median_delay": 13.5,
+              "n": 61,
+              "recall": 0.9836
+            }
+          },
+          "fa_per_1000_null": 0.917,
+          "threshold": 7.0
+        }
+      },
+      "cusum_lrv": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 8.5,
+              "n": 180,
+              "recall": 0.8889
+            },
+            "fa_per_1000_on_change_series": 0.625,
+            "mean_1": {
+              "median_delay": 14.5,
+              "n": 40,
+              "recall": 0.7
+            },
+            "mean_2": {
+              "median_delay": 5.0,
+              "n": 38,
+              "recall": 0.8684
+            },
+            "mean_3": {
+              "median_delay": 3.0,
+              "n": 41,
+              "recall": 0.9512
+            },
+            "variance": {
+              "median_delay": 14.5,
+              "n": 61,
+              "recall": 0.9836
+            }
+          },
+          "fa_per_1000_null": 0.833,
+          "threshold": 7.0
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 8.5,
+              "n": 180,
+              "recall": 0.8889
+            },
+            "fa_per_1000_on_change_series": 0.625,
+            "mean_1": {
+              "median_delay": 14.5,
+              "n": 40,
+              "recall": 0.7
+            },
+            "mean_2": {
+              "median_delay": 5.0,
+              "n": 38,
+              "recall": 0.8684
+            },
+            "mean_3": {
+              "median_delay": 3.0,
+              "n": 41,
+              "recall": 0.9512
+            },
+            "variance": {
+              "median_delay": 14.5,
+              "n": 61,
+              "recall": 0.9836
+            }
+          },
+          "fa_per_1000_null": 0.833,
+          "threshold": 7.0
+        }
+      },
+      "zscore": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 4.0,
+              "n": 180,
+              "recall": 0.4056
+            },
+            "fa_per_1000_on_change_series": 0.347,
+            "mean_1": {
+              "median_delay": 111.0,
+              "n": 40,
+              "recall": 0.05
+            },
+            "mean_2": {
+              "median_delay": 3.0,
+              "n": 38,
+              "recall": 0.3947
+            },
+            "mean_3": {
+              "median_delay": 2.0,
+              "n": 41,
+              "recall": 0.6098
+            },
+            "variance": {
+              "median_delay": 9.0,
+              "n": 61,
+              "recall": 0.5082
+            }
+          },
+          "fa_per_1000_null": 0.806,
+          "threshold": 1.75
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 4.0,
+              "n": 180,
+              "recall": 0.4056
+            },
+            "fa_per_1000_on_change_series": 0.347,
+            "mean_1": {
+              "median_delay": 111.0,
+              "n": 40,
+              "recall": 0.05
+            },
+            "mean_2": {
+              "median_delay": 3.0,
+              "n": 38,
+              "recall": 0.3947
+            },
+            "mean_3": {
+              "median_delay": 2.0,
+              "n": 41,
+              "recall": 0.6098
+            },
+            "variance": {
+              "median_delay": 9.0,
+              "n": 61,
+              "recall": 0.5082
+            }
+          },
+          "fa_per_1000_null": 0.806,
+          "threshold": 1.75
+        }
+      }
+    },
+    "0.5": {
+      "bocpd_ar": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 18.0,
+              "n": 180,
+              "recall": 0.55
+            },
+            "fa_per_1000_on_change_series": 0.528,
+            "mean_1": {
+              "median_delay": 33.0,
+              "n": 43,
+              "recall": 0.3953
+            },
+            "mean_2": {
+              "median_delay": 17.0,
+              "n": 49,
+              "recall": 0.6939
+            },
+            "mean_3": {
+              "median_delay": 11.5,
+              "n": 40,
+              "recall": 0.65
+            },
+            "variance": {
+              "median_delay": 18.5,
+              "n": 48,
+              "recall": 0.4583
+            }
+          },
+          "fa_per_1000_null": 1.306,
+          "threshold": 0.9
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 18.0,
+              "n": 180,
+              "recall": 0.55
+            },
+            "fa_per_1000_on_change_series": 0.528,
+            "mean_1": {
+              "median_delay": 33.0,
+              "n": 43,
+              "recall": 0.3953
+            },
+            "mean_2": {
+              "median_delay": 17.0,
+              "n": 49,
+              "recall": 0.6939
+            },
+            "mean_3": {
+              "median_delay": 11.5,
+              "n": 40,
+              "recall": 0.65
+            },
+            "variance": {
+              "median_delay": 18.5,
+              "n": 48,
+              "recall": 0.4583
+            }
+          },
+          "fa_per_1000_null": 1.306,
+          "threshold": 0.9
+        }
+      },
+      "bocpd_iid": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 14.0,
+              "n": 180,
+              "recall": 0.8333
+            },
+            "fa_per_1000_on_change_series": 3.153,
+            "mean_1": {
+              "median_delay": 24.0,
+              "n": 43,
+              "recall": 0.7209
+            },
+            "mean_2": {
+              "median_delay": 6.0,
+              "n": 49,
+              "recall": 0.9184
+            },
+            "mean_3": {
+              "median_delay": 6.0,
+              "n": 40,
+              "recall": 0.875
+            },
+            "variance": {
+              "median_delay": 20.0,
+              "n": 48,
+              "recall": 0.8125
+            }
+          },
+          "fa_per_1000_null": 5.861,
+          "threshold": 0.9
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 12.5,
+              "n": 180,
+              "recall": 0.5556
+            },
+            "fa_per_1000_on_change_series": 0.222,
+            "mean_1": {
+              "median_delay": 32.0,
+              "n": 43,
+              "recall": 0.4419
+            },
+            "mean_2": {
+              "median_delay": 12.0,
+              "n": 49,
+              "recall": 0.8367
+            },
+            "mean_3": {
+              "median_delay": 8.0,
+              "n": 40,
+              "recall": 0.75
+            },
+            "variance": {
+              "median_delay": 16.5,
+              "n": 48,
+              "recall": 0.2083
+            }
+          },
+          "fa_per_1000_null": 0.389,
+          "threshold": 0.9999
+        }
+      },
+      "cusum": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 14.0,
+              "n": 180,
+              "recall": 0.8833
+            },
+            "fa_per_1000_on_change_series": 3.708,
+            "mean_1": {
+              "median_delay": 28.0,
+              "n": 43,
+              "recall": 0.8605
+            },
+            "mean_2": {
+              "median_delay": 7.0,
+              "n": 49,
+              "recall": 0.8367
+            },
+            "mean_3": {
+              "median_delay": 8.5,
+              "n": 40,
+              "recall": 0.95
+            },
+            "variance": {
+              "median_delay": 12.0,
+              "n": 48,
+              "recall": 0.8958
+            }
+          },
+          "fa_per_1000_null": 5.417,
+          "threshold": 7.0
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 14.0,
+              "n": 180,
+              "recall": 0.9167
+            },
+            "fa_per_1000_on_change_series": 0.653,
+            "mean_1": {
+              "median_delay": 31.5,
+              "n": 43,
+              "recall": 0.9302
+            },
+            "mean_2": {
+              "median_delay": 10.0,
+              "n": 49,
+              "recall": 0.9388
+            },
+            "mean_3": {
+              "median_delay": 8.0,
+              "n": 40,
+              "recall": 0.9
+            },
+            "variance": {
+              "median_delay": 18.0,
+              "n": 48,
+              "recall": 0.8958
+            }
+          },
+          "fa_per_1000_null": 1.028,
+          "threshold": 16.0
+        }
+      },
+      "cusum_lrv": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 15.0,
+              "n": 180,
+              "recall": 0.8444
+            },
+            "fa_per_1000_on_change_series": 0.708,
+            "mean_1": {
+              "median_delay": 40.0,
+              "n": 43,
+              "recall": 0.7674
+            },
+            "mean_2": {
+              "median_delay": 10.0,
+              "n": 49,
+              "recall": 0.8367
+            },
+            "mean_3": {
+              "median_delay": 7.0,
+              "n": 40,
+              "recall": 0.9
+            },
+            "variance": {
+              "median_delay": 20.0,
+              "n": 48,
+              "recall": 0.875
+            }
+          },
+          "fa_per_1000_null": 0.444,
+          "threshold": 7.0
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 13.0,
+              "n": 180,
+              "recall": 0.8667
+            },
+            "fa_per_1000_on_change_series": 0.875,
+            "mean_1": {
+              "median_delay": 36.0,
+              "n": 43,
+              "recall": 0.8605
+            },
+            "mean_2": {
+              "median_delay": 9.0,
+              "n": 49,
+              "recall": 0.8163
+            },
+            "mean_3": {
+              "median_delay": 6.0,
+              "n": 40,
+              "recall": 0.925
+            },
+            "variance": {
+              "median_delay": 15.5,
+              "n": 48,
+              "recall": 0.875
+            }
+          },
+          "fa_per_1000_null": 1.056,
+          "threshold": 6.0
+        }
+      },
+      "zscore": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 10.0,
+              "n": 180,
+              "recall": 0.6556
+            },
+            "fa_per_1000_on_change_series": 2.069,
+            "mean_1": {
+              "median_delay": 34.5,
+              "n": 43,
+              "recall": 0.5116
+            },
+            "mean_2": {
+              "median_delay": 5.0,
+              "n": 49,
+              "recall": 0.7143
+            },
+            "mean_3": {
+              "median_delay": 4.0,
+              "n": 40,
+              "recall": 0.75
+            },
+            "variance": {
+              "median_delay": 15.0,
+              "n": 48,
+              "recall": 0.6458
+            }
+          },
+          "fa_per_1000_null": 3.139,
+          "threshold": 1.75
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 6.0,
+              "n": 180,
+              "recall": 0.3444
+            },
+            "fa_per_1000_on_change_series": 0.431,
+            "mean_1": {
+              "median_delay": 55.0,
+              "n": 43,
+              "recall": 0.1163
+            },
+            "mean_2": {
+              "median_delay": 4.0,
+              "n": 49,
+              "recall": 0.4286
+            },
+            "mean_3": {
+              "median_delay": 2.0,
+              "n": 40,
+              "recall": 0.475
+            },
+            "variance": {
+              "median_delay": 14.0,
+              "n": 48,
+              "recall": 0.3542
+            }
+          },
+          "fa_per_1000_null": 0.667,
+          "threshold": 2.25
+        }
+      }
+    },
+    "0.8": {
+      "bocpd_ar": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 25.0,
+              "n": 180,
+              "recall": 0.35
+            },
+            "fa_per_1000_on_change_series": 0.444,
+            "mean_1": {
+              "median_delay": 43.5,
+              "n": 37,
+              "recall": 0.1081
+            },
+            "mean_2": {
+              "median_delay": 38.0,
+              "n": 50,
+              "recall": 0.3
+            },
+            "mean_3": {
+              "median_delay": 29.5,
+              "n": 36,
+              "recall": 0.2778
+            },
+            "variance": {
+              "median_delay": 19.5,
+              "n": 57,
+              "recall": 0.5965
+            }
+          },
+          "fa_per_1000_null": 0.611,
+          "threshold": 0.9
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 25.0,
+              "n": 180,
+              "recall": 0.35
+            },
+            "fa_per_1000_on_change_series": 0.444,
+            "mean_1": {
+              "median_delay": 43.5,
+              "n": 37,
+              "recall": 0.1081
+            },
+            "mean_2": {
+              "median_delay": 38.0,
+              "n": 50,
+              "recall": 0.3
+            },
+            "mean_3": {
+              "median_delay": 29.5,
+              "n": 36,
+              "recall": 0.2778
+            },
+            "variance": {
+              "median_delay": 19.5,
+              "n": 57,
+              "recall": 0.5965
+            }
+          },
+          "fa_per_1000_null": 0.611,
+          "threshold": 0.9
+        }
+      },
+      "bocpd_iid": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 41.0,
+              "n": 180,
+              "recall": 0.9389
+            },
+            "fa_per_1000_on_change_series": 6.847,
+            "mean_1": {
+              "median_delay": 41.0,
+              "n": 37,
+              "recall": 0.9459
+            },
+            "mean_2": {
+              "median_delay": 33.5,
+              "n": 50,
+              "recall": 0.88
+            },
+            "mean_3": {
+              "median_delay": 36.0,
+              "n": 36,
+              "recall": 0.9167
+            },
+            "variance": {
+              "median_delay": 57.0,
+              "n": 57,
+              "recall": 1.0
+            }
+          },
+          "fa_per_1000_null": 9.861,
+          "threshold": 0.9
+        },
+        "per_regime": {
+          "calibration_feasible": false,
+          "detection": {
+            "all": {
+              "median_delay": 32.0,
+              "n": 180,
+              "recall": 0.8778
+            },
+            "fa_per_1000_on_change_series": 4.958,
+            "mean_1": {
+              "median_delay": 34.0,
+              "n": 37,
+              "recall": 0.8378
+            },
+            "mean_2": {
+              "median_delay": 24.0,
+              "n": 50,
+              "recall": 0.84
+            },
+            "mean_3": {
+              "median_delay": 23.5,
+              "n": 36,
+              "recall": 0.8889
+            },
+            "variance": {
+              "median_delay": 47.0,
+              "n": 57,
+              "recall": 0.9298
+            }
+          },
+          "fa_per_1000_null": 7.556,
+          "threshold": 0.9999
+        }
+      },
+      "cusum": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 45.0,
+              "n": 180,
+              "recall": 0.9389
+            },
+            "fa_per_1000_on_change_series": 5.264,
+            "mean_1": {
+              "median_delay": 56.0,
+              "n": 37,
+              "recall": 0.9189
+            },
+            "mean_2": {
+              "median_delay": 24.0,
+              "n": 50,
+              "recall": 0.92
+            },
+            "mean_3": {
+              "median_delay": 49.0,
+              "n": 36,
+              "recall": 0.8889
+            },
+            "variance": {
+              "median_delay": 53.0,
+              "n": 57,
+              "recall": 1.0
+            }
+          },
+          "fa_per_1000_null": 7.361,
+          "threshold": 7.0
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 30.0,
+              "n": 180,
+              "recall": 0.8389
+            },
+            "fa_per_1000_on_change_series": 0.944,
+            "mean_1": {
+              "median_delay": 57.0,
+              "n": 37,
+              "recall": 0.7568
+            },
+            "mean_2": {
+              "median_delay": 24.0,
+              "n": 50,
+              "recall": 0.82
+            },
+            "mean_3": {
+              "median_delay": 14.0,
+              "n": 36,
+              "recall": 0.9167
+            },
+            "variance": {
+              "median_delay": 33.0,
+              "n": 57,
+              "recall": 0.8596
+            }
+          },
+          "fa_per_1000_null": 1.083,
+          "threshold": 35.0
+        }
+      },
+      "cusum_lrv": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 26.0,
+              "n": 180,
+              "recall": 0.6444
+            },
+            "fa_per_1000_on_change_series": 0.5,
+            "mean_1": {
+              "median_delay": 89.0,
+              "n": 37,
+              "recall": 0.1892
+            },
+            "mean_2": {
+              "median_delay": 21.0,
+              "n": 50,
+              "recall": 0.66
+            },
+            "mean_3": {
+              "median_delay": 11.0,
+              "n": 36,
+              "recall": 0.75
+            },
+            "variance": {
+              "median_delay": 33.0,
+              "n": 57,
+              "recall": 0.8596
+            }
+          },
+          "fa_per_1000_null": 0.222,
+          "threshold": 7.0
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 19.5,
+              "n": 180,
+              "recall": 0.7444
+            },
+            "fa_per_1000_on_change_series": 0.931,
+            "mean_1": {
+              "median_delay": 80.5,
+              "n": 37,
+              "recall": 0.5405
+            },
+            "mean_2": {
+              "median_delay": 17.5,
+              "n": 50,
+              "recall": 0.64
+            },
+            "mean_3": {
+              "median_delay": 10.0,
+              "n": 36,
+              "recall": 0.8611
+            },
+            "variance": {
+              "median_delay": 24.0,
+              "n": 57,
+              "recall": 0.8947
+            }
+          },
+          "fa_per_1000_null": 0.556,
+          "threshold": 4.0
+        }
+      },
+      "zscore": {
+        "naive": {
+          "detection": {
+            "all": {
+              "median_delay": 56.5,
+              "n": 180,
+              "recall": 0.9
+            },
+            "fa_per_1000_on_change_series": 4.569,
+            "mean_1": {
+              "median_delay": 65.0,
+              "n": 37,
+              "recall": 0.8919
+            },
+            "mean_2": {
+              "median_delay": 45.0,
+              "n": 50,
+              "recall": 0.88
+            },
+            "mean_3": {
+              "median_delay": 70.0,
+              "n": 36,
+              "recall": 0.8611
+            },
+            "variance": {
+              "median_delay": 41.0,
+              "n": 57,
+              "recall": 0.9474
+            }
+          },
+          "fa_per_1000_null": 6.389,
+          "threshold": 1.75
+        },
+        "per_regime": {
+          "calibration_feasible": true,
+          "detection": {
+            "all": {
+              "median_delay": 15.0,
+              "n": 180,
+              "recall": 0.2722
+            },
+            "fa_per_1000_on_change_series": 0.417,
+            "mean_1": {
+              "median_delay": 65.0,
+              "n": 37,
+              "recall": 0.1892
+            },
+            "mean_2": {
+              "median_delay": 42.0,
+              "n": 50,
+              "recall": 0.2
+            },
+            "mean_3": {
+              "median_delay": 2.0,
+              "n": 36,
+              "recall": 0.3056
+            },
+            "variance": {
+              "median_delay": 15.0,
+              "n": 57,
+              "recall": 0.3684
+            }
+          },
+          "fa_per_1000_null": 0.667,
+          "threshold": 3.0
+        }
+      }
+    }
+  },
+  "runtime_seconds": 311.7
+}
